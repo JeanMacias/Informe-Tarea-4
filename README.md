@@ -20,4 +20,7 @@ Conceptualizar y profundizar los conceptos de circuitos en serie-paralelo y de l
 
 **CAPÍTULO 7**
 
+**IDENTIFICACIÓN DE RELACIONES EN SERIE-PARALELO**
+
+Un circuito en serie-paralelo consiste en combinaciones de trayectorias para corriente dispuestas tanto en serie como en paralelo.
 
