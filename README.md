@@ -18,3 +18,6 @@ Conceptualizar y profundizar los conceptos básicos de circuitos mixtos (serie-p
 
 # **MARCO TEÓRICO**
 
+**CAPÍTULO 7**
+
+
