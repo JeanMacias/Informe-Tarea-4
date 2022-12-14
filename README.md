@@ -12,7 +12,7 @@ Conceptualizar y profundizar los conceptos de circuitos en serie-paralelo y de l
 
 **OBJETIVOS ESPECÍFICOS**
 
-* Identificar y solucionar circuitos en serie-paralelo
+* Identificar y solucionar circuitos en serie-paralelo.
 
 *
 
