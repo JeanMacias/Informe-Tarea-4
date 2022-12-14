@@ -12,7 +12,7 @@ Conceptualizar y profundizar los conceptos básicos de circuitos mixtos (serie-p
 
 **OBJETIVOS ESPECÍFICOS**
 
-* Aprender a solucionar problemas de circuitos mixtos
+* Identificar y solucionar circuitos mixtos
 
 *
 
