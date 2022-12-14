@@ -8,11 +8,11 @@ NRC: 10063
 
 **OBJETIVO GENERAL**
 
-Conceptualizar y profundizar los conceptos básicos de circuitos mixtos (serie-paralelo) y de los principales teoremas de circuitos eléctricos para su posterior aplicación en la resolución de problemas.
+Conceptualizar y profundizar los conceptos de circuitos en serie-paralelo y de los principales teoremas de circuitos eléctricos para su posterior aplicación en la resolución de problemas.
 
 **OBJETIVOS ESPECÍFICOS**
 
-* Identificar y solucionar circuitos mixtos
+* Identificar y solucionar circuitos en serie-paralelo
 
 *
 
