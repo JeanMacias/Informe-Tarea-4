@@ -37,6 +37,3 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 **7.2. ANÁLISIS DE CIRCUITOS RESISTIVOS EN SERIE-PARALELO**
 
 
-![image](https://user-images.githubusercontent.com/116774235/207735300-e8945e79-3776-4b6e-a82a-4695de867b89.png)
-
-
