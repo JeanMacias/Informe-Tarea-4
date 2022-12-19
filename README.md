@@ -37,3 +37,4 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 **7.2. ANÁLISIS DE CIRCUITOS RESISTIVOS EN SERIE-PARALELO**
 
 
+**7.3. DIVISORES DE VOLTAJE CON CARGAS RESISTIVAS**
