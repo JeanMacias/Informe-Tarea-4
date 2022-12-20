@@ -215,3 +215,14 @@ RESULTADOS:
 * V1 = 5V
 * V2 = V3 = 1.88 V
 * V4 = V5 = 3.13 V
+
+**13)** Encuentre RT para todas las combinaciones de los interruptores de la figura 7-66
+
+*figura 7-66:*
+
+![image](https://user-images.githubusercontent.com/116774235/208587691-7ca7b978-163b-43c7-89c0-2756d408b9ce.png)
+
+* SW1 cerrado, SW2 abierto: 220 Ω
+* SW1 cerrado, SW2 cerrado: 200 Ω
+* SW1 abierto, SW2 abierto: 320 Ω
+* SW1 abierto, SW2 cerrado: 300 Ω
