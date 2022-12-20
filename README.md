@@ -145,4 +145,12 @@ Diagrama esquemático:
 
 ![image](https://user-images.githubusercontent.com/116774235/208584028-dded9056-8075-4d10-a013-9916703ce8c4.png)
 
+**7)** Configure una tarjeta de circuito impreso para el circuito de la figura 7-63(c). La batería tiene que conectarse externa a la tarjeta.
 
+*figura 7-63(c):*
+
+![image](https://user-images.githubusercontent.com/116774235/208584561-98cab375-55d3-4fcf-b4e2-9e570cbde987.png)
+
+Tarjeta de circuito impreso:
+
+![image](https://user-images.githubusercontent.com/116774235/208584611-e3de8215-1ff4-4c6c-af70-8ebb102fcccd.png)
