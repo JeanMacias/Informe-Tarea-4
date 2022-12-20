@@ -32,16 +32,6 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 
 ![image](https://user-images.githubusercontent.com/116774235/207728442-b4361941-ba39-46b0-aca6-4935e313edb0.png)
 
-# **RESOLUCIÓN DE EJERCICIOS**
-
-**CAPÍTULO 7**
-
-**EJERCICIOS IMPARES**
-
-* **SECCIÓN 7-1 IDENTIFICACIÓN DE RELACIONES EN SERIE-PARALELO**
-
-**1)** Visualice
-
 *Si se realiza un observación cuidadosa, podemos notar que la relación que existe entre los elementos del circuito es:*
 * *La combinación en serie-paralelo de R1,R4 y R6 está en serie con la combinación en serie-paralelo de R2,R3 y R5*
 
