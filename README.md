@@ -237,3 +237,106 @@ RESULTADOS:
 * VOLTAJE EN EL NODO B: 61.5 V
 * VOLTAJE EN EL NODO C: 15.7 V
 * VOLTAJE EN EL NODO D: 7.87 V
+
+**17)** En la figura 7-68, ¿cómo determinaría el voltaje entre los extremos de R2 por medición sin conectar directamente un medidor entre los extremos del resistor?
+
+*figura 7-68:*
+
+![image](https://user-images.githubusercontent.com/116774235/208588370-063323b5-2817-4962-9605-6ee163efeef9.png)
+
+Respuesta: Medir el voltaje en A con respecto a tierra y el voltaje en B con respecto a tierra. La diferencia de los voltajes: VB - VA = VR2
+
+**19)** Determine la resistencia del circuito mostrado en la figura 7-68 como se ve desde la fuente de voltaje.
+
+*figura 7-68:*
+
+![image](https://user-images.githubusercontent.com/116774235/208588370-063323b5-2817-4962-9605-6ee163efeef9.png)
+
+RT = 303 kΩ
+
+**21)** Determine el valor de R2 en la figura 7-70. Encuentre la potencia en R2.
+
+*figura 7-70:*
+
+![image](https://user-images.githubusercontent.com/116774235/208588897-26faffa3-d6e5-4563-bc2a-581b9b329c4e.png)
+
+RESULTADOS:
+
+* R2 = 110 kΩ
+* Potencia de R2 = 110 mW
+
+**23)** Encuentre la resistencia entre cada uno de los siguientes juegos de nodos mostrados en la figura 7-72: AB, BC y CD.
+
+*figura 7-72:*
+
+![image](https://user-images.githubusercontent.com/116774235/208589181-86d04c57-9989-4b31-a6a1-d0571587ac83.png)
+
+RESULTADOS:
+
+* R(AB) = 1.32 kΩ
+* R(BC) = 1.32 kΩ
+* R(CD) = 0 Ω
+
+* **SECCIÓN 7-3: DIVISORES DE VOLTAJE CON CARGAS RESISTIVAS**
+
+**25)** Un divisor de voltaje está compuesto por dos resistores de 56 kΩ y una fuente de 15 V. Calcule el vol-
+taje de salida sin carga. ¿Cuál será el voltaje de salida si se conecta un resistor con carga de 1.0 MΩ a
+la salida?
+
+* **a)** Vout = 15V * (56kΩ / 112kΩ) = 7.5 V
+
+* **b)** Req1 = 1/[(56kΩ)-1+(1000kΩ)-1] = 53kΩ
+
+Vout = 15v * (53kΩ/109kV) = 7.29 V
+
+**27)** ¿Cuál de dos cargas, una de 10 kΩ y otra de 47 kΩ, provocará una disminución más pequeña en el voltaje de salida de un divisor de voltaje dado?.
+
+La resistencia que provoca una menor disminución de voltaje es la de 47 kΩ. Ya que, al tomar por ejemplo una fuente de 15V, la salida de una resistencia de 10 kΩ será de 2.63 V y la de 47 kΩ será de 12.36 V
+
+**29)**  En la figura 7-74, determine el voltaje de salida con una carga de 33 kΩ conectada entre A y B.
+
+*figura 7-74:*
+
+![image](https://user-images.githubusercontent.com/116774235/208590464-63320efb-a795-4185-ae7b-04e9936f0fe7.png)
+
+Req2 = 5.6kΩ + 2.7kΩ = 8.3 kΩ
+
+Req1 = 1/((8.3kΩ^)-1+(33kΩ)^-1) = 6.632 kΩ
+
+Vout = 22V * (6.632kΩ/16.632kΩ)
+
+Vout = 8.77 V
+
+**31)** Determine los valores de resistencia para un divisor de voltaje que debe satisfacer las siguientes especificaciones: la corriente extraída de la fuente sin carga no debe exceder de 5 mA; el voltaje de fuente
+tiene que ser de 10 V, y las salidas requeridas deben ser de 5 y 2.5 V. Trace el circuito. Determine el
+efecto en los voltajes de salida si se conecta una carga de 1.0 kΩ a cada toma, una a la vez.
+
+* Determinar las resistencias:
+
+R1+R2+R3 = 10V/5mA = 2kΩ
+
+Como las salidas de voltaje son de 5V y 2.5V, dos resistencias de las 3 van a ser iguales, por lo que se supondrá a R2=R3; Por lo que R1 tendrá voltaje de 5V, R2 y R3 tendrán voltaje de 2.5V, completando así los 10V de la fuente.
+
+* Determinar los valores de R1, R2 y R3:
+
+R1 = 5V/5mA = 1kΩ
+
+R2 = R3 = 2.5V/5mA = 0.5kΩ
+
+* Determinar voltajes para la toma superior:
+
+Req = 1/((1kΩ)^-1 + (1kΩ)^1) = 0.5kΩ
+
+Vout1 = 10V * 0.5kΩ/(0.5kΩ+0.5kΩ+0.5kΩ) = 3.3333kΩ
+
+V = 10V * 1kΩ / 1.5kΩ = 6.667
+
+Vout2 = 6.67/5V = 1.67 V
+
+* Determinar voltajes para la toma inferior:
+
+Req = 1/((0.5kΩ)^-1+(1kΩ)^-1) = 0.3333kΩ
+
+Vout1 = 10V * 0.3333kΩ/(0.333kΩ+0.5kΩ+1kΩ) = 1.82V
+
+![image](https://user-images.githubusercontent.com/116774235/208592207-857cba62-7302-4442-86b4-a3e94cd7fd59.png)
