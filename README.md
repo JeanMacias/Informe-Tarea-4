@@ -116,3 +116,33 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 
 ![image](https://user-images.githubusercontent.com/116774235/208582381-f50abe7a-9fee-41be-bcef-6060220efbcc.png)
 
+**3)** En cada circuito de la figura 7-62, indique las relaciones en serie-paralelo de los resistores vistas desde la fuente.
+
+*figura 7-62:*
+
+![image](https://user-images.githubusercontent.com/116774235/208583058-18ce3615-ff64-49a2-b079-a0b2b8871845.png)
+
+
+* **a)** ![image](https://user-images.githubusercontent.com/116774235/208583145-7237aa21-53dc-4d81-99d7-84fe097ee0ae.png)
+
+R1 y R4 están en serie con la combinación en paralelo de R2 y R3
+
+* **b)** ![image](https://user-images.githubusercontent.com/116774235/208583273-32f08aea-4821-4732-a66f-c89fd69d825b.png)
+
+R1 está en serie con la combinación en paralelo de R2, R3 y R4
+
+* **c)** ![image](https://user-images.githubusercontent.com/116774235/208583602-755e47a4-d071-4298-804f-1c252c81741b.png)
+
+La combinación en paralelo de R2 y R3 está en serie con la combinación en paralelo de R4 y R5. Todo esto está en paralelo con R1
+
+**5)** Trace el diagrama esquemático de la configuración de la tarjeta de circuito impreso mostrada en la figura 7-64 indicando valores de resistor, e identiique las relaciones en serie-paralelo.
+
+*figura 7-64:*
+
+![image](https://user-images.githubusercontent.com/116774235/208583966-05dbafff-a899-473a-87dc-6417c7f217c2.png)
+
+Diagrama esquemático:
+
+![image](https://user-images.githubusercontent.com/116774235/208584028-dded9056-8075-4d10-a013-9916703ce8c4.png)
+
+
