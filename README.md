@@ -154,3 +154,64 @@ Diagrama esquemático:
 Tarjeta de circuito impreso:
 
 ![image](https://user-images.githubusercontent.com/116774235/208584611-e3de8215-1ff4-4c6c-af70-8ebb102fcccd.png)
+
+* **SECCIÓN 7-2: ANÁLISIS DE CIRCUITOS RESISTIVOS EN SERIE-PARALELO**
+
+**9)** Para cada uno de los circuitos mostrados en la figura 7-32, determine la resistencia total presentada a la fuente.
+
+*figura 7-62:*
+
+![image](https://user-images.githubusercontent.com/116774235/208586388-d25cbd50-ce4d-42c8-bbe8-f7dc1192b978.png)
+
+
+* **a)** ![image](https://user-images.githubusercontent.com/116774235/208586437-8dd9de26-fc03-4818-bffb-2492c417a803.png)
+
+RT = 133 Ω
+
+* **b)** ![image](https://user-images.githubusercontent.com/116774235/208586530-0a71be7d-caec-49cf-ab34-1d36fc748a5f.png)
+
+RT = 779 Ω
+
+* **c)** ![image](https://user-images.githubusercontent.com/116774235/208586637-846f5379-3224-4932-90cb-7389f34335ee.png)
+
+RT= 852 Ω
+
+**11)** Determine la corriente a través de cada resistor del circuito de la figura 7-62; calcule en seguida cada caída de voltaje.
+
+*figura 7-62:*
+
+![image](https://user-images.githubusercontent.com/116774235/208586388-d25cbd50-ce4d-42c8-bbe8-f7dc1192b978.png)
+
+* **a)** ![image](https://user-images.githubusercontent.com/116774235/208586437-8dd9de26-fc03-4818-bffb-2492c417a803.png)
+
+RESULTADOS:
+
+* I1 = I4= 11.3 mA 
+* I2 = I3 = 5.64 mA
+* V1 = 633 mV
+* V2 = V3 = 564 mV
+* V4 = 305 mV
+
+* **b)** ![image](https://user-images.githubusercontent.com/116774235/208586530-0a71be7d-caec-49cf-ab34-1d36fc748a5f.png)
+
+RESULTADOS:
+
+* I1 = 3.85 mA
+* I2 = 653 uA
+* I3 = 1.16 mA
+* I4 = 2.13 mA
+* V1 = 2.62 V
+* V2 = V3 = V4 = 383 mV
+
+* **c)** ![image](https://user-images.githubusercontent.com/116774235/208586637-846f5379-3224-4932-90cb-7389f34335ee.png)
+
+RESULTADOS:
+
+* I1 = 5 mA
+* I2 = 303 uA
+* I3 = 568 uA
+* I4 = 313 uA
+* I5 = 558 uA
+* V1 = 5V
+* V2 = V3 = 1.88 V
+* V4 = V5 = 3.13 V
