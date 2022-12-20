@@ -340,3 +340,374 @@ Req = 1/((0.5kΩ)^-1+(1kΩ)^-1) = 0.3333kΩ
 Vout1 = 10V * 0.3333kΩ/(0.333kΩ+0.5kΩ+1kΩ) = 1.82V
 
 ![image](https://user-images.githubusercontent.com/116774235/208592207-857cba62-7302-4442-86b4-a3e94cd7fd59.png)
+
+**35)** ¿En cuál de los siguientes intervalos de voltaje presentará un voltímetro la mínima carga que haya en
+un circuito?  **(a)** 1V   **b)** 10V  **c)** 100V  **d)** 1000V
+
+Un voltímetro presentará la mínima carga en un circuito que tenga una fuente de voltaje de 1000V
+
+**37)** El voltímetro descrito en el problema 36 se utiliza para medir voltaje entre los extremos de R4 en la fi-
+gura 7-62(a).
+
+*figura 7-62(a)*
+
+![image](https://user-images.githubusercontent.com/116774235/208658420-921fb4dd-c3ca-433c-9654-0997fc1a8914.png)
+
+* **a)** ¿Qué intervalo se deberá utilizar?
+
+Se utiliza el intervalo de 0.5V
+
+* **b)** ¿En cuánto se reduce el voltaje medido por el medidor con respecto al voltaje real?
+
+* 1. Voltaje de R2 con divisor de voltaje:
+
+V2 = (R2/R2+R2)*Vs
+
+V2 = (1kΩ/1kΩ+1kΩ)*1V
+
+V2= 0.5V
+
+* 2. Voltaje de R4 con divisor de voltaje:
+
+V4 = (R4/R3+R4)*V2
+
+V4 = (3.3kΩ/2.2kΩ+3.3kΩ)*0.5V
+
+V4 = 0.3V
+
+* 3. Resistencia del medidor en paralelo con R4:
+
+R4∥RM = (R3*RM/R4+RM)
+
+R4∥RM = (3.3kΩ*100000kΩ/3.3kΩ+100000kΩ)
+
+R4∥RM = 3.299kΩ
+
+* 4. Voltaje medido en realidad por el medidor:
+
+V4 = (R4∥RM/R3+R4∥RM)*V2
+
+V4 = (3.299kΩ/2.2kΩ+3.299kΩ)*0.5V
+
+V4 = 0.2999 V
+
+**RESPUESTA:** El voltaje se reduce en 0.001V o 1mV
+
+**39)** Para el circuito mostrado en la figura 7-77, calcule:
+
+*figura 7-77:*
+
+![image](https://user-images.githubusercontent.com/116774235/208660448-a8d1be0a-1e95-4a97-a9df-8b7bd854971e.png)
+
+* **a)** La resistencia total entre las terminales de la fuente:
+
+![image](https://user-images.githubusercontent.com/116774235/208660740-04160f8b-8445-40cf-8fea-1e2da0b4835d.png)
+
+* **b)** La corriente total suministrada por la fuente
+
+IT = Vs/RT
+
+IT = 60V/270.84Ω
+
+IT = 0.222A = 222mA
+
+* **c)** La corriente a través del resistor de 910 Ω
+
+![image](https://user-images.githubusercontent.com/116774235/208661158-cd5b12fc-4c0b-4674-8fb6-e468b9ae7e99.png)
+
+* **d)** El voltaje desde el punto A hasta el punto B
+
+V(AB) = I5 * R5
+
+V(AB) = 12mA * 1kΩ
+
+V(AB) = 12V
+
+**41)** Determine la resistencia total entre las terminales A y B de la red en escalera de la figura 7-79. Asimis-
+mo, calcule la corriente en cada rama con 10 V entre A y B.
+
+*figura 7-79:*
+
+![image](https://user-images.githubusercontent.com/116774235/208661718-fa39b211-aaa4-4d6c-9462-fc07bc940b9e.png)
+
+* Se encuentran resistencias equivalentes en serie y paralelo respectivamente hasta encontrar la total:
+
+![image](https://user-images.githubusercontent.com/116774235/208661934-0a25e5b8-595d-4071-a07f-2d9f48831cc7.png)
+
+* Se halla la corriente de las ramas utilizando divisores de corriente a partir de la corriente de la fuente
+
+![image](https://user-images.githubusercontent.com/116774235/208662061-131df0b9-e79f-40cb-90d7-a822cd865cd7.png)
+
+**43)** Determine la corriente total y el voltaje de salida en la figura 7-80.
+
+*figura 7-80:*
+
+![image](https://user-images.githubusercontent.com/116774235/208662277-4e4923bb-b195-4ff8-b21a-66661e24dc58.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208662522-dd5fa977-8dce-4a56-88b7-4a23e7f015a1.png)
+
+**45)** Repita el problema 44 para las siguientes condiciones:
+
+* **a)** SW3 y SW4 conectados a +12 V, SW1 y SW2 a tierra
+
+![image](https://user-images.githubusercontent.com/116774235/208662895-460d471c-1cd5-49cb-8106-cf11f4bb1aea.png)
+
+* **b)** SW3 y SW1 conectados a +12 V, SW2 y SW4 a tierra
+
+![image](https://user-images.githubusercontent.com/116774235/208663031-d318d6c8-a1c5-48a3-9cba-983df3a151de.png)
+
+* **c)** Todos los interruptores conectados a +12 V
+
+![image](https://user-images.githubusercontent.com/116774235/208663114-779b70bd-54c0-49ed-bf41-729d8430eea9.png)
+
+* **SECCIÓN 7-6: EL PUENTE WHEATSTONE**
+
+**47)** Una celda de carga tiene cuatro medidores de deformación idénticos con una resistencia ilimitada de
+120,000 Ω para cada medidor (un valor estándar). Cuando se agrega una carga, los medidores a tensión
+incrementan su resistencia en 60 mΩ, a 120,060 Ω, y los medidores a compresión disminuyen su resisten-
+cia en 60 mΩ, a 119.940 Ω, como se muestra en la figura 7-82. ¿Cuál es el voltaje de salida con carga?
+
+*figura 7-82:*
+
+![image](https://user-images.githubusercontent.com/116774235/208663485-a11a7d20-5194-4da6-aefe-904da5b92499.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208663604-b6585901-a759-4270-8e0f-87d39b6e525a.png)
+
+* **SECCIÓN 7-7: LOCALIZACIÓN DE FALLAS**
+
+**49)** ¿Es correcta la lectura del voltímetro de la figura 7-84?
+
+*figura 7-84:*
+
+![image](https://user-images.githubusercontent.com/116774235/208663850-14f5de9b-7430-458e-9723-f40d67594118.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208664021-66af3c87-378b-4238-b96d-5159cda54ebe.png)
+
+Encontrar el voltaje medido con la corriente total y resistencia equivalente a A
+
+![image](https://user-images.githubusercontent.com/116774235/208664138-91a9d262-282c-40e8-b808-56e6972bcfeb.png)
+
+**RESPUESTA:** El voltaje medido que se muestra en la figura no es correcto ya que debería ser de 4.29V
+
+**51)**  En la figura 7-86 hay una falla. Con base en las indicaciones del medidor, determine cuál es la falla.
+
+*gifura 7-86:*
+
+![image](https://user-images.githubusercontent.com/116774235/208664358-b16b0a6f-cba0-4868-83b2-f1b46c1d9965.png)
+
+**RESPUESTA:** El voltímetro que marca 2.5V indica que la rama a la que está conectado no tiene inconvenientes, sin embago, el que marca 0V indica que un resistor está abierto a esa rama, al no ser la del medidor de 2.5V entonces deber tratarse del resistor R3 de 2.2kΩ que se encuentra abierto.
+
+
+
+**53)** Revise las lecturas de los medidores de la figura 7-88 y localice cualquier falla que pudiera existir.
+
+*figura 7-88:*
+
+![image](https://user-images.githubusercontent.com/116774235/208664775-4917a547-c4ec-4ff6-8263-42e5b01557e4.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208664879-9459ec35-5a01-4b3e-99af-2ed08c92da75.png)
+
+![image](https://user-images.githubusercontent.com/116774235/208664940-a8ded7b6-1cd5-4b2f-a168-30bb0f72da43.png)
+
+![image](https://user-images.githubusercontent.com/116774235/208664978-bc6e3df9-0fee-45b2-8a36-6d2107c90ef3.png)
+
+**CAPÍTULO 8**
+
+* **SECCIÓN 8-3: CONVERSIONES DE FUENTE**
+
+**1)** Una fuente de voltaje tiene los valores VS � 300 V y RS � 50 Æ. Conviértala en una fuente de corriente equivalente.
+
+Se sabe que el voltaje de la fuente divido entre la resistencia interna de la fuente da como resultado el valor de la corriente equivalente:
+
+Is = Vs/Rs
+
+Is = 300V/50Ω
+
+Is = 6A
+
+**3)**  Una batería tipo D nueva tiene entre sus terminales un voltaje de 1.6 V y puede suministrar hasta 8.0 A
+a un cortocircuito durante muy poco tiempo. ¿Cuál es la resistencia interna de la batería?
+
+Rs = Vs/Is
+
+Rs = 1.6V/8.0A
+
+Rs = 0.2Ω = 200mΩ
+
+**5)** Una fuente de corriente tiene una IS de 600 mA y una RS de 1.2 kΩ. Conviértala en una fuente de vol-
+taje equivalente.
+
+Vs = Is * Rs
+
+Vs = 600mA * 1.2kΩ
+
+Vs = 720V
+
+**7)** Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69.
+
+*figura 8-69:*
+
+![image](https://user-images.githubusercontent.com/116774235/208666525-ebca07c8-67d4-4db5-8997-a0e75cd6bc8c.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208666638-765a3688-e178-4473-9de2-a684870b7b1f.png)
+
+**9)** Con el teorema de superposición, determine la corriente a través de R3 en la figura 8-70.
+
+*figura 8-70:*
+
+![image](https://user-images.githubusercontent.com/116774235/208666769-df1cb3a9-3b56-46f5-8862-b5a171d395b9.png)
+
+SOLUCIÓN:
+
+* I1 = (680Ω/850.6Ω)*100mA = 79.75mA
+
+* I2 = (220Ω/1020Ω)*79.8mA = 17.21mA
+
+* RT = 587.6Ω
+
+* IT = 20V/587.6Ω = 34.03mA
+
+**13)** Determine el voltaje del punto A al punto B en la figura 8-73.
+
+*figura 8-73:*
+
+![image](https://user-images.githubusercontent.com/116774235/208667321-d2ce994c-607e-4f9f-8779-68fa16fa4fdd.png)
+
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208667372-c479c983-d043-42e0-a8cc-36e5bcbd32de.png)
+
+**15)**  La figura 8-75 muestra dos redes en escalera. Determine la corriente producida por cada una de las ba-
+terías cuando se conectan las terminales A (A a A) y las terminales B (B a B).
+
+*figura 8-75:*
+
+![image](https://user-images.githubusercontent.com/116774235/208667596-58f82f3b-8040-4951-a107-85abe1349828.png)
+
+* Cuando RVs2 = 0:
+
+Rt = 14.03kΩ
+
+Is1 = 32V/14.03kΩ = 2.28mA
+
+* Cuando RVs1 = 0:
+
+Rt = 11.1kΩ
+
+IS2 = 15V/11.1kΩ = 1.35mA
+
+* **SECCIÓN 8-5: TEOREMA DE THEVENIN**
+
+**17)** Con el teorema de Thevenin, determine la corriente a través de la carga RL en la figura 8-77.
+
+*figura 8-77:*
+
+![image](https://user-images.githubusercontent.com/116774235/208668356-57a3cdc0-30a7-462a-a0b8-cb12c3dcfb34.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208668479-3ae0b486-41d5-4467-9cae-2e34c8eb3d76.png)
+
+**21)** Determine la corriente a través del resistor de carga en el circuito puente de la figura 8-81.
+
+*figura 8-81:*
+
+![image](https://user-images.githubusercontent.com/116774235/208668608-9fec8bcc-2b67-4e99-b83d-911cdcd5ceff.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208668658-d8fad507-a762-44ee-92f9-47ae37d012b6.png)
+
+![image](https://user-images.githubusercontent.com/116774235/208668695-48214f53-771e-4d0e-80fa-caeb93338dd0.png)
+
+* **SECCIÓN  8-6: TEOREMA DE NORTON**
+
+**23)** Para cada uno de los circuitos mostrados en la figura 8-76, determine el equivalente Norton visto por RL.
+
+![image](https://user-images.githubusercontent.com/116774235/208669024-ae06e8fd-d06e-47bb-8c4c-5473014fdd1c.png)
+
+**25)** Con el teorema de Norton, determine el voltaje entre los extremos de R5 en la figura 8-78.
+
+*figura 8-78:*
+
+![image](https://user-images.githubusercontent.com/116774235/208669237-eee1e9ad-86ed-4631-989d-a2f507ee9bd7.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208669330-5a757d22-57c1-423d-8ba8-a23c4b41ac52.png)
+
+![image](https://user-images.githubusercontent.com/116774235/208669386-50c07502-11b1-4197-93b1-fb75128edda2.png)
+
+**27)**  Determine el circuito equivalente Norton para el puente que aparece en la figura 8-81 sin RL.
+
+*figura 8-81:*
+
+![image](https://user-images.githubusercontent.com/116774235/208669526-9b8c5b5e-9743-4a02-a32a-8a95d0b33bb5.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208669645-ffd5ac6f-c134-494b-ad01-19090f1339e8.png)
+
+**29)** Aplique el teorema de Norton al circuito de la figura 8-84.
+
+*figura 8-84:*
+
+![image](https://user-images.githubusercontent.com/116774235/208669800-888dbeb5-514e-490e-8ede-96d1723379ed.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208669852-30f877ae-059c-4a0a-9c31-04677a776d48.png)
+
+* **SECCIÓN 8-7: TEOREMA DE TRANSFERENCIA DE POTENCIA MÁXIMA**
+
+**31)** En el circuito de la figura 8-86, determine el valor de RL para transferencia de potencia máxima.
+
+*figura 8-86:*
+
+![image](https://user-images.githubusercontent.com/116774235/208670090-7076baed-953f-4551-a6ba-389579fc0ce9.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208670165-cc5209be-eba0-4348-9bcd-b8b9cb9fdcd2.png)
+
+![image](https://user-images.githubusercontent.com/116774235/208670214-801e34d2-f61e-4a52-ac5d-f4a8c2f5949c.png)
+
+**33)** ¿Cuáles son los valores de R4 y RTH cuando la potencia máxima se transfiere de la fuente thevenizada
+a la red en configuración de escalera de la figura 8-87?
+
+*figura 8-87:*
+
+![image](https://user-images.githubusercontent.com/116774235/208670339-540f18a3-98bd-48d2-a897-8e3dee147b84.png)
+
+SOLUCIÓN:
+
+![image](https://user-images.githubusercontent.com/116774235/208670403-6725163e-d9e8-4453-9ef2-c5f59317c48b.png)
+
+* **SECCIÓN 8-8: CONVERSIONES DE DELTA A Y (Δ-Y) Y Y A DELTA (Y-Δ)**
+
+**35)** En la figura 8-89, convierta cada red Y en una red delta.
+
+*figura 8-89:*
+
+![image](https://user-images.githubusercontent.com/116774235/208670758-e7d33ef1-6c6a-430d-b9a6-c2974b57ba69.png)
+
+SOLUCIÓN:
+
+* **LITERAL a)** 
+
+![image](https://user-images.githubusercontent.com/116774235/208670928-77ec524b-6fdf-4b70-944c-53f48f028eca.png)
+
+* **LITERAL b)**
+
+![image](https://user-images.githubusercontent.com/116774235/208671012-7747b8bd-f886-4cc9-ae5c-e4efe644cca4.png)
