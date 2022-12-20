@@ -216,7 +216,7 @@ RESULTADOS:
 * V2 = V3 = 1.88 V
 * V4 = V5 = 3.13 V
 
-**13)** Encuentre RT para todas las combinaciones de los interruptores de la figura 7-66
+**13)** Encuentre RT para todas las combinaciones de los interruptores de la figura 7-66.
 
 *figura 7-66:*
 
@@ -226,3 +226,14 @@ RESULTADOS:
 * SW1 cerrado, SW2 cerrado: 200 Ω
 * SW1 abierto, SW2 abierto: 320 Ω
 * SW1 abierto, SW2 cerrado: 300 Ω
+
+**15)** Determine el voltaje en cada nodo con respecto a tierra en la figura 7-67.
+
+*figura 7-67:*
+
+![image](https://user-images.githubusercontent.com/116774235/208588013-75103d46-55cb-47de-b82a-f2dd91db6522.png)
+
+* VOLTAJE EN EL NODO A: 100 V
+* VOLTAJE EN EL NODO B: 61.5 V
+* VOLTAJE EN EL NODO C: 15.7 V
+* VOLTAJE EN EL NODO D: 7.87 V
