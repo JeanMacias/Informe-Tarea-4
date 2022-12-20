@@ -14,7 +14,7 @@ Conceptualizar y profundizar los conceptos de circuitos en serie-paralelo y de l
 
 * Identificar y solucionar circuitos en serie-paralelo.
 
-*
+* Interpretar correctamente circuitos y redes para adquirir la habilidad de realizar conversiones que faciliten la resolución de ejercicios teóricos y prácticos a futuro.
 
 # **MARCO TEÓRICO**
 
@@ -711,3 +711,15 @@ SOLUCIÓN:
 * **LITERAL b)**
 
 ![image](https://user-images.githubusercontent.com/116774235/208671012-7747b8bd-f886-4cc9-ae5c-e4efe644cca4.png)
+
+# **CONCLUSIONES**
+
+* Tras el análisis de los temas propuestos nos fue posible establecer la importancia de la revisión teórica para la resolución de ejercicios dentro de la cual nos fue posible identificar distintos teoremas para construir circuitos equivalentes como los son el teorema de superposición que permite encontrar corrientes parciales y simplificar circuitos que requieran de la utilización de multiples fuentes de alimentación, de Norton que reduce circuitos complejos encontrando una corriente y resistencia de Norton, su circuito se forma por dos resistencias y una fuente de corriente todas en paralelo, de Thevenin que basa su procedimiento en encontrar una resistencia y voltaje de Thevenin y su circuito se reduce a uno de dos resistencias y una fuente de voltaje, estas se encuentran en paralelo, finalmente, el teorema de tranferencia de potencia máxima que permite conocer las circunstancias en las cuales se da este suceso. Todos los teoremas comprenden un procedimiento y propósitos distintos, sin embargo, al mismo tiempo todos pretenden agilizar el proceso de solución.
+
+* Las conversiones son un factor un tema importante para el adecuado análisis de circuitos, ya que permite simplificar un circuito de mejor manera y realizar cálculos eficientemente, y las conversiones que se estudiaron en estos temas fueron de circuitos "Y" a circuitos "Δ" y viceversa; son importantes ya que cierto tipo de circuitos es mejor analizarlos desde otra perspectiva. Una de sus principales aplicaciones es para convertir parcialmente un circuito con el nombre de "Puente de WheatStone", donde se convierte la parte inferior que es un circuito "Δ" a un circuito "Y", y de esta manera se obtiene un circuito en paralelo más sencillo y factible para un análisis.
+
+* Es importante también el reconocer la forma en la que componentes de un circuito están colocados, es decir, identificar si ciertos elementos como resistencias se encuentran conectados en serie o están conectados en paralelo y usar las ecuaciones adecuadas para el cálculos de valores correcto; además de comprender que al insertar un nuevo elemento en un circuito lo va a afectar de una manera distinta dependiendo de como se lo agregue (en serie o en paralelo) ya que como se dijo previamente afectará el valor equivalente de las resistencias (en este caso) que tenga el circuito.
+
+# **BIBLIOGRAFÍA**
+
+* Floyd, T. (2007). Principios De Circuitos Eléctricos. Octava edición. México. Pearson Education.
