@@ -32,6 +32,15 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 
 ![image](https://user-images.githubusercontent.com/116774235/207728442-b4361941-ba39-46b0-aca6-4935e313edb0.png)
 
+# **RESOLUCIÓN DE EJERCICIOS**
+
+**CAPÍTULO 7**
+
+**EJERCICIOS IMPARES**
+
+* **SECCIÓN 7-1 IDENTIFICACIÓN DE RELACIONES EN SERIE-PARALELO**
+
+**1)** Visualice
 
 *Si se realiza un observación cuidadosa, podemos notar que la relación que existe entre los elementos del circuito es:*
 * *La combinación en serie-paralelo de R1,R4 y R6 está en serie con la combinación en serie-paralelo de R2,R3 y R5*
@@ -96,4 +105,24 @@ Es necesario observar de manera adecuada el diagrama de los circuitos para poder
 **8.8. CONVERSIONES DE DELTA A Y (Δ-Y) Y Y A DELTA (Y-Δ)**
 
 ![image](https://user-images.githubusercontent.com/116774235/208578993-d7ba2fa9-bc93-4fe2-a593-84fb6ccba3ba.png)
+
+# **RESOLUCIÓN DE EJERCICIOS**
+
+**CAPÍTULO 7**
+
+* **SECCIÓN 7-1: IDENTIFICACIÓN DE RELACIONES EN SERIE-PARALELO**
+
+**1)** Visualice y trace las siguientes combinaciones en serie-paralelo:
+
+* **a)** R1 en serie con la combinación en paralelo de R2 y R3
+
+![image](https://user-images.githubusercontent.com/116774235/208582236-89f92a6d-d001-4a59-a101-d0a8bcc49589.png)
+
+* **b)** R1 en paralelo con la combinación en serie de R2 y R3
+
+![image](https://user-images.githubusercontent.com/116774235/208582271-ed879462-00bf-46c8-a893-a1cb5ea49ba2.png)
+
+* **c)** R1 en paralelo con una rama que contiene R2 en serie con una combinación en paralelo de otros cuatro resistores
+
+![image](https://user-images.githubusercontent.com/116774235/208582381-f50abe7a-9fee-41be-bcef-6060220efbcc.png)
 
